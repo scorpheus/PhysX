@@ -466,8 +466,8 @@ namespace physx { namespace Sn {
 			, mVersionStr( getLatestVersion() )
 			, mPxCollection( &inPxCollection )
 		{
-			memset( &mScale, 0, sizeof( PxTolerancesScale ) );
-			PX_ASSERT( mScale.isValid() == false );
+		//	memset( &mScale, 0, sizeof( PxTolerancesScale ) );
+		//	PX_ASSERT( mScale.isValid() == false );
 		}
 
 		RepXCollectionImpl( PxSerializationRegistry& inRegistry, const RepXCollectionImpl& inSrc, const char* inNewVersion )
